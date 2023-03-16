@@ -40,7 +40,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
                 ");"
                 ;
         db.execSQL(query);
-        onCreate(db);
+//        onCreate(db);
     }
 
     @Override
